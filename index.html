@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<style>
+/* Hover effect for button */
+.custom-btn:hover {
+    background-color: #46505c; /* dark background */
+    color: white;             /* text color white */
+    transform: scale(1.05);   /* slight zoom effect */
+    transition: 0.3s;         /* smooth transition */
+}
+</style>
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="shadow-lg  bg-white  rounded" style="width: 75%; height:75%;">
+
+        <div class="d-flex justify-content-center mt-3">
+            <h1 class="fs-2 fw-bolder"> Temperature Converter </h1>
+        </div>
+
+
+<div class="container">
+    <div class="row g-3 align-items-center">
+
+        <div class="col-md-4 d-flex align-items-center gap-2 ">
+            <label for="" class="fw-bold w-50">Enter Temperature:</label>
+            <input type="number" placeholder="Enter temperature " class="form-control w-50 " id="tem">
+        </div>
+
+        
+
+        <div class="col-md-4 d-flex align-content-center gap-2 ">
+            <label for="" class="fw-bold">Covert to:</label>
+            <select id="tem-Type" class="form-select ">
+                <option value="celsius"> celsius</option>
+                <option value="fahrenheit"> fahrenheit</option>
+            </select>
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn btn-outline-dark w-100 custom-btn" id="button"> convert</button>
+        </div>
+    </div>  
+</div>
+
+
+<div class="d-flex justify-content-center align-content-center fw-bold mt-3" id="result"> 
+    Result:
+</div>
+
+</div>
+</div>
+
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
